@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BINGO</title>
+    <link rel="stylesheet" href="my_css.css" />
+    <!-- Google Fonts Start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts End-->
+  </head>
+  <body>
+    <header class="dei">
+      <nav class="navbar">
+        <div class="navbar__brand">
+          <img src="./assets/titlelogo.png" alt="logo" class="brand__logo" />
+        </div>
+        <br />
+        <div class="navbar__nav__items">
+          <ul class="horizontal_navbar">
+            <li>
+              <a href="#intro" class="nav_buttons">Home</a>
+            </li>
+            <li>
+              <a href="#explore" class="nav_buttons">Explore</a>
+            </li>
+            <li>
+              <a href="#game" class="nav_buttons1">Play&Win</a>
+            </li>
+            <li>
+              <a href="#Feedback" class="nav_buttons1">Feedback</a>
+            </li>
+            <div class="button__prim">
+              <li>
+                <a href="#" class="button__primary">Order Food</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="intro__part" id="intro">
+        <div class="mp__starts">
+          <br />
+
+          <p class="quote__">
+            <b>
+              " When you eat food with your family and friends, it always tastes
+              better! "
+            </b>
+          </p>
+        </div>
+        <div>
+          <img src="./assets/heroShape.svg" alt="BGBG_" class="bg_design" />
+          <img src="./assets/fam_pic1.jpg" alt="fam_img1" class="design_1" />
+          <img src="./assets/fampic2.jpg" alt="fam_img2" class="design_2" />
+          <img src="./assets/fampic3.jpg" alt="fam_img3" class="design_3" />
+        </div>
+      </section>
+      <br />
+
+      <section class="second__part" id="explore">
+        <img
+          src="./assets/chef.jpg"
+          alt="chef_img"
+          class="chef__img"
+          width="250px"
+          height="250px"
+        />
+        <h2 class="ribbon-highlight" style="position: relative">
+          <em>Your life, your freedom, your will to choose!</em>
+        </h2>
+      </section>
+      <section class="diff_food_itmes">
+        <div class="card">
+          <img
+            src="./assets/northindian.jpg"
+            alt="northtindian"
+            width="240"
+            height="200"
+            class="same_prop"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <div class="text__incard">
+            <h4><b>NORTH-INDIAN</b></h4>
+            <p>Love the Roti, love the culture</p>
+            <a href="#" target="_blank" style="text-decoration: none"
+              >Start Exploring!</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/south-indian-thali.jpg"
+            alt="southtindian"
+            width="240"
+            height="200"
+            class="same_prop"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <div class="text__incard">
+            <h4><b>SOUTH-INDIAN</b></h4>
+            <p>Meet The all time tiffins favorite</p>
+            <a href="#" target="_blank" style="text-decoration: none"
+              >Start Exploring!</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/chinese.jpg"
+            alt="chinese_pic"
+            width="240"
+            height="200"
+            class="same_prop"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <div class="text__incard">
+            <h4><b>CHINESE</b></h4>
+            <p>Who doesnt like chinese food :)</p>
+            <a href="#" target="_blank" style="text-decoration: none"
+              >Start Exploring!</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/italian.jpg"
+            alt="italian_pic"
+            width="240"
+            height="200"
+            class="same_prop"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <div class="text__incard">
+            <h4><b>ITALIAN</b></h4>
+            <p>Any day, any place, any time</p>
+            <a href="#" target="_blank" style="text-decoration: none"
+              >Start Exploring!</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/american.jpg"
+            alt="american_pic"
+            width="240"
+            height="200"
+            class="same_prop"
+            style="display: block; margin-left: auto; margin-right: auto"
+          />
+          <div class="text__incard">
+            <h4><b>AMERICAN</b></h4>
+            <p>Cant say no to those americanos!</p>
+            <a href="#" target="_blank" style="text-decoration: none"
+              >Start Exploring!</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="form__fillups" id="Feedback">
+        <div class="container">
+          <h2 style="text-align: center;">FEEDBACK FORM</h3>
+          <form action="action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname"> Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="emailid">Enter Your EmailId:</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="EmailIdname="EmailId" placeholder="something@gmail.com">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="City">City</label>
+              </div>
+              <div class="col-75">
+                <select id="City" name="City">
+                  <option value="Bangalore">Bangalore</option>
+                  <option value="Chennai">Chennai</option>
+                  <option value="Hyderabad">Hyderabad</option>
+                  <option value="Mumbai">Mumbai</option>
+                  <option value="Kochi">Kochi</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Suggestions </label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="play__the__game" id="game">
+        <h2 class="text__for__play">
+          Play Games, win offers, Get exciting discount
+        </h2>
+        <div class="video__game">
+          <p class="cool__stuff">
+            Download the app to get exclusive rewards<br />
+            <img
+              src="https://foodhub.co.uk/compressed_images/download-google-play.png"
+              alt="google play icon"
+            />
+            <img
+              src="https://foodhub.co.uk/compressed_images/download-app-store.png"
+              alt="app store icon"
+            />
+          </p>
+        </div>
+        <div class="vid__vid">
+          <iframe
+            src="https://www.youtube.com/embed/GnRIeJrUhDU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="utube__"
+            >lalal</iframe
+          >
+        </div>
+    </section>
+    <div class="icon-bar">
+      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+      <a href="#" class="google"><i class="fa fa-google"></i></a>
+      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
+    </main>
+  </body>
+</html>

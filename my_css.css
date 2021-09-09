@@ -1,0 +1,524 @@
+.navbar{
+    background-image: url(https://images.unsplash.com/photo-1614851099362-9adf73ccebe9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bGlnaHQlMjBjb2xvdXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+}
+
+.brand__logo{
+    border-radius: 2%;
+    height: 28%;
+    width: 28%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.navbar__nav__items{
+    background-color: rgb(59, 55, 124);
+    
+}
+
+.horizontal_navbar{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+.nav_buttons, .nav_buttons1{
+    padding: 8px 18px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 7px #999;
+    margin-right:10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.nav_buttons:hover, .nav_buttons1:hover{
+    background-color: #3e8e41
+}
+
+.nav_buttons:active, .nav_buttons1:active{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.button__prim{
+    display: block;
+    float: right;
+}
+
+.button__primary{
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    margin: 10px;
+    padding: 1rem 0.25rem;
+    text-align: center;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px red;
+    border-radius: 2px;
+    
+
+}
+
+.mp__starts{
+    background-color: rgb(207, 216, 230);
+    margin-left: 51%;
+    margin-right: auto;
+    width: 42%;
+    border-radius: 10%;
+    padding: 10px 10px;    
+ 
+}
+
+.quote__{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    color: rgb(42, 23, 77);
+    text-align: center;
+    line-height: 80px;
+    display: block;
+    
+}
+
+.bg_design{
+    position: absolute;
+    z-index: -1;
+    top: 200px;
+    left: -100px;
+    height:50%;
+    width:60%;
+}
+
+.design_1{
+    position: absolute;
+    top: 210px;
+    left: 60px;
+    height:22%;
+    width:20%;
+}
+
+.design_2{
+    position: absolute;
+    top: 295px;
+    left: 380px;
+    height:24%;
+    width:21%;
+}
+
+.design_3{
+    position: absolute;
+    top: 390px;
+    left: 60px;
+    height:22%;
+    width:20%;
+}
+    
+.chef__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ribbon-highlight{
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1.1em;
+    border-style: solid;
+    border-color: lightgreen;
+    position: absolute;
+    width: 35.6%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    text-align: center;
+}
+
+.diff_food_itmes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+  
+    
+}
+
+.card {
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 17%;
+    height: 30%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 25px 25px 0 rgba(0,0,0,0.2);
+  }
+  
+ 
+  .text__incard {
+    padding: 2px 16px;
+     text-decoration: none;
+  }
+
+
+  .text__for__play{
+      position: absolute;
+      margin-right: auto;
+      margin-left: 29%;
+
+  }
+.vid__vid{
+    position: absolute;
+    margin: auto;
+    top: 200%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
+
+.play__the__game{
+    background: #000;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  
+  .text__for__play{
+      font-size: 200%;
+  }
+  
+  .utube__{
+      height: 315px;
+      width: 560px;
+      position: absolute;
+      bottom: -650px;
+      left: -290px;
+  }
+
+  .cool__stuff{
+      position: absolute;
+      margin-right: auto;
+      margin-left: 40%;
+      margin-top: 29%;
+  }
+  
+  
+ 
+.container{
+    width: 40%;
+    margin-right: auto;
+    margin-left: 28%;
+}
+  
+input[type=text], select, textarea{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #beb8b8;
+    padding: 20px;
+  }
+  
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+
+  
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+@media only screen and (max-width: 768px){
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    .navbar{
+        display: block;
+        
+        margin-right: 45%;
+       width: 100%;
+    }
+    .brand__logo{
+        width: 80%;
+        
+       
+ }
+
+    .li{
+        float: none;
+    }
+
+   .nav_buttons{
+       font-size: 12px;
+       padding: 4px 9px;
+       border-radius: 5px;
+       box-shadow: 0 4px #999;;
+       margin-right: 5px;
+       margin-left: 5px;
+       margin-top: 5px;
+       margin-bottom: 5px;
+      
+   }
+
+   .nav_buttons1{
+    font-size: 12px;
+    padding: 4px 9px;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+      
+   }
+
+   .intro__part{
+       width: 100%;
+   }
+
+   .quote__{
+    font-size: 160%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 34px;
+    display: block;
+    top: auto;
+   }
+
+   .mp__starts{
+    margin-left: 53%;
+    margin-right: auto;
+    width: 48%;
+    border-radius: 5%;
+   padding: 10px 2px;  
+   height: 50%; 
+   }
+
+   .bg_design{
+    position: absolute;
+    z-index: -1;
+    height:35%;
+    width:40%;
+    top: 200px;
+    left: 20px;
+}
+   .design_1{
+    position: absolute;
+    top: 210px;
+    left: 10px;
+    height:13%;
+    width:22%;
+}
+.design_2{
+    position: absolute;
+    top: 255px;
+    left: 108px;
+    height:13%;
+    width:22%;
+}
+
+.design_3{
+    position: absolute;
+    top: 317px;
+    left: 10px;
+    height:13%;
+    width:22%;
+}
+
+.ribbon-highlight{
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1.1em;
+    border-style: solid;
+    border-color: lightgreen;
+    position: absolute;
+    width: 80%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    text-align: center;
+}
+
+.diff_food_itmes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  
+}
+
+.card{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+
+}
+
+.video__game{
+    position: absolute;
+    margin: auto;
+    top: 420%;
+    left: 50%;
+    transform: translate(-100%, -150%);
+}
+
+.container{
+    width: 70%;
+    margin-left: 10%;
+}
+.utube__{
+    height: 215px;
+    width: 290px;
+   
+}
+
+
+.vid__vid{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+    top: 385%;
+    left: 85%;
+   
+  }
+  .video__game{
+    display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+.text__for__play{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 180%;
+}
+.cool__stuff{
+    position: absolute;
+    top: 410px;
+    left: -70px;
+    font-size: 130%;
+    
+}
+}
